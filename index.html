@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Project | CSS Snippets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Mini Project | CSS Snippets</h1>
+    <p>This is a short description about CSS cheatsheets. They're fun to use. aka you're gonna need it.</p>
+  </header>
+  <main>
+    <article>
+      <div class="boxes">
+      <section>
+        <div class="smallbox">
+        <h2>Flex Wrap</h2>
+        <p>By default, flex items will all try to fit onto one line.
+          You can change that and allow the items to wrap as needed with this property.</p>
+        <pre>
+          <code>
+ .container {
+      flex-wrap:
+      nowrap 
+      wrap 
+      wrap-reverse;
+  }
+          </code>
+        </pre>
+        </div>
+      </section>
+    </article>
+    <article>
+      <section>
+        <div class="smallbox">
+        <h2>Flex Direction</h2>
+        <p>This establishes the main-axis,
+          thus defining the direction flex items are placed in the flex container.</p>
+        <pre>
+        <code>
+.container {
+     flex-direction: 
+      row
+      row-reverse 
+      column 
+      column-reverse;
+ }
+        </code>
+      </pre>
+      </div>
+      </section>
+    </article>
+    <article>
+      <section>
+        <div class="smallbox">
+        <h2>Display</h2>
+        <p>This defines a flex container; inline or block depending on the given value.
+          It enables a flex context for all its direct children.</p>
+        <pre>
+        <code>
+ .container {
+     display: flex; /* or inline-flex */
+}
+        </code>
+      </pre>
+      </div>
+      </section>
+    </article>
+    <article>
+      <section>
+        <div class="smallbox">
+        <h2>Jusify Content</h2>
+        <p>This defines the alignment along the main axis. It helps distribute extra free space leftover when either all
+          the flex items on a line are inflexible, or are flexible but have reached their maximum size.
+          It also exerts some control over the alignment of items when they overflow the line.</p>
+        <pre>
+        <code>
+.container {
+    justify-content:
+    flex-start 
+    flex-end 
+    center 
+    space-between 
+    space-around 
+    space-evenly 
+}
+        </code>
+      </pre>
+      </div>
+      </section>
+    </article>
+    <article>
+      <section>
+        <div class="smallbox">
+        <h2>Box Shadow</h2>
+        <p>The CSS box-shadow property is used to apply one or more shadows to an element</p>
+        <pre>
+        <code>
+div {
+    box-shadow: 10px 10px;
+ }
+        </code>
+      </pre>
+        </div>
+      </section>
+    </article>
+    <article>
+      <section>
+        <div class="smallbox">
+        <h2>Box Model</h2>
+        <p>In CSS, the term "box model" is used when talking about design and layout.
+          The CSS box model is essentially a box that wraps around every HTML element.
+          Content - The content of the box, where text and images appear
+          Padding - Clears an area around the content. The padding is transparent
+          Border - A border that goes around the padding and content
+          Margin - Clears an area outside the border. The margin is transparent
+        </p>
+        <pre>
+        <code>
+div {
+     width: 300px;
+     border: 15px solid green;
+     padding: 50px;
+    margin: 20px;
+}
+        </code>
+      </pre>
+        </div>
+      </section>
+    </div>
+    </article>
+  </main>
+</body>
+
+</html>
